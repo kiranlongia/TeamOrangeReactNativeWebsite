@@ -1,0 +1,110 @@
+.root{
+    display: flex;
+}
+
+.container{
+    margin: 2% 5%;
+    margin-top: 8%;
+    margin-left: 25%;
+}
+
+
+.title{
+
+}
+
+.list{
+    width: 60vw;
+    margin-top: 5%;
+}
+
+.listActions{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions button{
+    width: 50px;
+    height: 30px;
+    background-color: #5AB568;
+    color: white;
+    border: none;
+}
+
+.listItem{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+    margin-bottom: 2%;
+}
+
+.modal{
+    width: 1200px;
+    height: 600px;
+    background-color: white;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.modalHeader{
+    margin: 20px;
+}
+
+.modalBody{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fields{
+    width: 70%;
+    margin: 9px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.fieldContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.modalFormContainer{
+    width: 70%;
+}
+
+.modalFooter{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.modalFooter button{
+    /* margin: 10px; */
+    width: 50px;
+    height: 30px;
+    background-color: #5AB568;
+    color: white;
+    border: none;
+    margin: 0px 20px;
+}
+
+
+.modalContainer{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+}

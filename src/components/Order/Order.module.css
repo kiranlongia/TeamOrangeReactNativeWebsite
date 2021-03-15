@@ -1,0 +1,58 @@
+.listContainer{
+    background-color: white;
+    margin: 2% 6%;
+    /* margin-right: 5%; */
+}
+
+.contentContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+
+img{
+    padding: 20px;
+}
+
+.title{
+    margin-left: 6%;
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+
+.summaryContainer {
+    background-color: white;
+    margin: 2% 6%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.actions button{
+    width: 20%;
+    margin: 2%;
+    font-size: 12pt;
+    background-color: #5AB568;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.actions button:hover{
+    background-color: white ;
+    color: #5AB568;
+    border: 1px solid #5AB568;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.fields{
+    margin-bottom: 10px;
+}
+
+.expectedDateField
+
+.statusField{
+    color: green;
+}
